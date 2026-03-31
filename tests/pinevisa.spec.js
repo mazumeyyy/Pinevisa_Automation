@@ -1,31 +1,29 @@
 const { test, expect } = require('@playwright/test');
 
 test.describe('Pinevisa Automation', () => {
-  test('Fill nationality and select experience', async ({ page }) => {
-    await page.goto('https://staging.pinevisa.com/');
+    test('Fill nationality and select experience', async ({ page }) => {
+        await page.goto('https://staging.pinevisa.com/');
 
-    // Locate the button by its text
-    const button = page.getByRole('button', { name: 'Check Eligibility' });
+        // Click Check Eligibility
+        const button = page.getByRole('button', { name: 'Check Eligibility' });
+        await expect(button).toBeVisible();
+        await button.click();
 
-    // Assert button is visible and click it
-    await expect(button).toBeVisible();
-    await button.click();
+        // Fill nationality
+        const nationalityInput = page.getByPlaceholder('e.g., Philippines, Mexico, India');
+        await nationalityInput.waitFor({ state: 'visible' });
+        await nationalityInput.fill('Nepal');
 
-    // Now wait for the nationality input to appear
-    const nationalityInput = page.getByPlaceholder('e.g., Philippines, Mexico, India');
-    await nationalityInput.waitFor({ state: 'visible' });
+        // Select Years of Experience
+        // First open the dropdown (if it’s collapsed)
+        await page.locator('svg.lucide-chevron-down').first().click();
 
-    // Fill with "Nepal"
-    await nationalityInput.fill('Nepal');
+        // Then locate the specific option by its text and click
+        const experienceOption = page.getByRole('button', { name: '3- 5 Years' });
+        await expect(experienceOption).toBeVisible();
+        await experienceOption.click();
 
-    // Dropdown chevron
-    const dropdownTrigger = page.locator('svg.lucide-chevron-down').first();
-    await dropdownTrigger.click();
 
-    // Select "3-5 Years"
-    const option = page.getByText('3-5 Years', { exact: true });
-
-    // Verify selection
-    await expect(page.locator('text=3-5 Years')).toBeVisible();
-  });
+        // Verify selection
+    });
 });
