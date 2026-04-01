@@ -21,7 +21,14 @@ test.describe('Pinevisa Automation', () => {
         const emailInput = page.getByPlaceholder('Enter Email');
         await emailInput.fill('mazumpaudel02@gmail.com');
 
+        // Click the dial code dropdown
+        // Click the dial code dropdown
+        await page.locator('div').filter({ hasText: /^\+ Dial$/ }).nth(2).click();
+        await page.waitForTimeout(500);
 
+        // Try this placeholder instead
+        await page.getByPlaceholder('Search...').fill('Nepal');
+        await page.getByRole('button', { name: 'Nepal +977 +' }).click();
         const ContactNumberInput = page.getByPlaceholder('Enter Contact Number');
         await ContactNumberInput.fill('9813928426');
 
@@ -49,6 +56,7 @@ test.describe('Pinevisa Automation', () => {
 
         // Click Next
         await page.locator('button[type="button"]').filter({ hasText: 'Next' }).click();
+        await page.waitForTimeout(1000);
 
         // Select country Nepal
         // Select country Nepal - using nth(1) to target the second dropdown
@@ -74,6 +82,7 @@ test.describe('Pinevisa Automation', () => {
 
         // Click Next
         await page.locator('button[type="button"]').filter({ hasText: 'Next' }).click();
+        await page.waitForTimeout(1000);
 
 
         // Highest Degree - Select Bachelor
@@ -102,9 +111,23 @@ test.describe('Pinevisa Automation', () => {
 
         // NOW click Next - after ALL education fields are filled
         await page.locator('button[type="button"]').filter({ hasText: 'Next' }).click();
+        await page.waitForTimeout(1000);
 
-        
+        // Wait for Documents page to load
+        await page.waitForSelector('input[placeholder="e.g. Police Clearance, Training Certificate"]', { timeout: 10000 });
 
+        // Fill document name
+        await page.locator('input[placeholder="e.g. Police Clearance, Training Certificate"]').fill('Training Certificate');
+
+        await page.locator('input[type="file"].absolute.inset-0.opacity-0').setInputFiles('C:\\Users\\Mazum Paudel\\OneDrive\\Desktop\\DSML_certificate.jpeg');
+
+
+        // Click Next and wait for Other tab to load
+        await page.locator('button[type="button"]').filter({ hasText: 'Next' }).click();
+        await page.waitForSelector('text=Other', { timeout: 10000 });
+
+        // Click Submit
+        await page.locator('button[type="button"]').filter({ hasText: 'Submit' }).click();
 
 
 
