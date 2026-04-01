@@ -42,7 +42,19 @@ test.describe('Pinevisa Automation', () => {
         // Click Nepal from the options
         await page.getByText('Nepal', { exact: true }).click();
 
-        
+        // This handles the entire file upload in one line - no need to click Browse
+        await page.locator('input[type="file"][name="passport_front"]').setInputFiles('C:\\Users\\Mazum Paudel\\OneDrive\\Desktop\\pp.jpeg');
+        // Wait for the image preview to appear
+        await page.waitForSelector('img', { timeout: 5000 });
+
+        // Click Next
+        await page.locator('button[type="button"]').filter({ hasText: 'Next' }).click();
+
+
+
+
+
+
 
 
 
