@@ -50,9 +50,60 @@ test.describe('Pinevisa Automation', () => {
         // Click Next
         await page.locator('button[type="button"]').filter({ hasText: 'Next' }).click();
 
+        // Select country Nepal
+        // Select country Nepal - using nth(1) to target the second dropdown
+        // Click the country dropdown using the span text inside it
+        await page.locator('div').filter({ hasText: /^Select country\.\.\.$/ }).nth(1).click();
+        await page.getByPlaceholder('Search country...').fill('Nepal');
+        await page.getByText('Nepal', { exact: true }).click();
+
+        // Street
+        await page.locator('input[name="current_street"]').fill('Lazimpat Hotel Wawa');
+
+        // City
+        await page.locator('input[name="current_city"]').fill('Kathmandu');
+
+        // State
+        await page.locator('input[name="current_state"]').fill('Bagmati');
+
+        // Zip code
+        await page.locator('input[name="current_zip_code"]').fill('44600');
+
+        // Toggle - Same as Current address
+        await page.locator('div.w-12.h-6.bg-gray-200').click();
+
+        // Click Next
+        await page.locator('button[type="button"]').filter({ hasText: 'Next' }).click();
 
 
+        // Highest Degree - Select Bachelor
+        await page.locator('select[name="edu_highest_degree"]').selectOption('Bachelor');
 
+        // Education country
+        await page.locator('div').filter({ hasText: /^Select country\.\.\.$/ }).first().click();
+        await page.waitForTimeout(500);
+        await page.getByPlaceholder('Search country...').fill('Nepal');
+        await page.waitForTimeout(500);
+        await page.getByText('Nepal', { exact: true }).click();
+
+        // Year of completion
+        await page.locator('input[name="edu_year_of_completion"]').fill('2025');
+
+        // School name
+        await page.locator('input[name="edu_school_name"]').fill('Vedas College');
+
+        // Major
+        await page.locator('input[name="edu_major"]').fill('B.Sc.CSIT');
+
+        // English Proficiency - same page, no Next needed before this!
+        await page.locator('select[name="english_writing"]').selectOption('Advance');
+        await page.locator('select[name="english_reading"]').selectOption('Advance');
+        await page.locator('select[name="english_speaking"]').selectOption('Advance');
+
+        // NOW click Next - after ALL education fields are filled
+        await page.locator('button[type="button"]').filter({ hasText: 'Next' }).click();
+
+        
 
 
 
