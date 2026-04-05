@@ -6,6 +6,17 @@ test.describe('Pinevisa Automation', () => {
 
         await page.getByRole('link', { name: 'Read Our Story' }).click();
         await page.getByRole('link', { name: 'Start Free Consultation' }).click();
+
+        await page.locator('input[name="full_name"]').fill('Mazum Paudel');
+        await page.locator('input[name="email"]').fill('mazumpaudel02@gmail.com');
+        await page.locator('input[name="phone"]').fill('9813928426');
+        await page.locator('input[name="industry"]').fill('IT');
+        await page.locator('textarea[name="message"]').fill('I am interested in your services.');
+        await page.locator('button[type="submit"]').click();
+        await page.waitForTimeout(1000);
+
+        
+
     });
 
 });

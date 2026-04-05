@@ -64,6 +64,5 @@ test.describe('Pinevisa Automation', () => {
 
      
 
-        // Verify selection
     });
 });

@@ -90,7 +90,7 @@ test.describe('Pinevisa Automation', () => {
 
         // Education country
         await page.locator('div').filter({ hasText: /^Select country\.\.\.$/ }).first().click();
-        await page.waitForTimeout(500);
+        await page.waitForTimeout(1000);
         await page.getByPlaceholder('Search country...').fill('Nepal');
         await page.waitForTimeout(500);
         await page.getByText('Nepal', { exact: true }).click();
@@ -128,7 +128,7 @@ test.describe('Pinevisa Automation', () => {
 
         // Click Submit
         await page.locator('button[type="button"]').filter({ hasText: 'Submit' }).click();
-
+        
 
 
 
