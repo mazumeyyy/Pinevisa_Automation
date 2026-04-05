@@ -3,9 +3,17 @@ const { test, expect } = require('@playwright/test');
 test.describe('Pinevisa Automation', () => {
     test('Fill employers details', async ({ page }) => {
         await page.goto('https://staging.pinevisa.com/');
+        await page.goto('https://staging.pinevisa.com/employers');
+        await page.goto('https://staging.pinevisa.com/employer/form');
 
-        await page.getByRole('link', { name: Employers }).click();
-
-        
+        await page.locator('input[name="employer_information.company_name"]').fill('AdviseBridge Pvt. Ltd.');
+        await page.locator('input[name="employer_information.trade_name"]').fill('AdviseBridge');
+        await page.locator('input[name="employer_information.business_phone"]').fill('9813928426');
+        await page.locator('input[name="employer_information.business_email"]').fill('teamadvisebridge@gmail.com');
+        await page.locator('input[name="employer_information.website"]').fill('https://advisebridge.com');
+        await page.locator('input[name="employer_information.federal_ein"]').fill('123456789');
+        await page.locator('input[name="employer_information.year_business_established"]').fill('2022');
+        await page.locator('input[name="employer_information.business_type"]').fill('Education');
+        await page.locator('input[name="employer_information.no._of_employees"]').fill('20');
     });
 });
