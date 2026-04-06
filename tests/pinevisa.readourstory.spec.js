@@ -12,10 +12,10 @@ test.describe('Pinevisa Automation', () => {
         await page.locator('input[name="phone"]').fill('9813928426');
         await page.locator('input[name="industry"]').fill('IT');
         await page.locator('textarea[name="message"]').fill('I am interested in your services.');
-        await page.locator('button[type="submit"]').click();
+        await page.getByRole('button', { name: 'Submit' }).first().click(); 
         await page.waitForTimeout(1000);
 
-        
+
 
     });
 
