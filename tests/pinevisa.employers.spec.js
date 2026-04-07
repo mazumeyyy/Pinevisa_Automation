@@ -37,8 +37,18 @@ test.describe('Pinevisa Automation', () => {
 
         //Position Information
 
-        await page.locator('input[name=employer_information.position_information.job_title"]').fill('IT Technician');
-        await page.locator('input[name=employer_information.position_information.work_location"]').fill('Responsible for maintaining and troubleshooting computer systems and networks.');
+        await page.locator('input[name="employer_information.position_information.job_title"]').fill('Software Engineer');        
+        await page.locator('input[name="employer_information.position_information.work_location"]').fill('Hotel Wawa');
+        await page.locator('input[name="employer_information.position_information.number_of_workers_requested"]').fill('20');
+        await page.locator('textarea[placeholder="Enter brief job description"]').fill('Responsible for maintaining and troubleshooting computer systems and networks.');
+        await page.locator('input[placeholder="Enter expected start date"]').fill('2026-05-07');
+        await page.locator('button[type="button"]').filter({ hasText: 'Next' }).click();
+
+        //
+
+
+    
+
 
 
         
