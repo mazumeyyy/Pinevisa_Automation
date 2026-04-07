@@ -44,7 +44,33 @@ test.describe('Pinevisa Automation', () => {
         await page.locator('input[placeholder="Enter expected start date"]').fill('2026-05-07');
         await page.locator('button[type="button"]').filter({ hasText: 'Next' }).click();
 
-        //
+        // Financial Information
+
+        await page.locator('input[name="employer_information.financial_information.gross_revenue"]').fill('1000000');
+        await page.locator('input[name="employer_information.financial_information.net_profit"]').fill('500000');
+        await page.locator('input[name="employer_information.financial_information.total_payroll"]').fill('25000');
+        await page.locator('textarea[name="employer_information.financial_information.employer_acknowledgment"]').fill('Thankyou for your submission. We will review your application and get back to you shortly.');
+        await page.locator('button[type="button"]').filter({ hasText: 'Next' }).click();
+
+        //Employer Representative
+
+        await page.locator('input[name="employer_representative.first_name"]').fill('Mazum');
+        await page.locator('input[name="employer_representative.last_name"]').fill('Paudel');
+        await page.locator('button[type="button"]').filter({ hasText: 'Next' }).click();
+
+        //Signature Date
+
+        await page.locator('input[name="title"]').fill('Mr');
+        await page.locator('input[name="date"]').fill('2026-04-07');
+  
+
+
+
+
+
+
+        
+
 
 
     
