@@ -13,11 +13,16 @@ test.describe('Pinevisa Automation', () => {
         // Click Sign In button
         await page.getByRole('button', { name: 'Sign in' }).click();
 
-        // Step 1: Click the avatar to open the user dropdown
-        await page.getByRole('button', { name: 'Avatar of Admin Kumar' }).click();
+        // Click on avatar to open menu
+        await page.locator('img.fi-avatar.fi-circular.fi-size-md.fi-user-avatar').click();
 
-        // Step 2: Click "Enable dark theme" from the dropdown
-        await page.getByRole('button', { name: 'Enable dark theme' }).click();
+        // Click Enable dark theme
+        await page.locator('button[aria-label="Enable dark theme"]').click();
+
+       
+        
+
+
     });
 });
 

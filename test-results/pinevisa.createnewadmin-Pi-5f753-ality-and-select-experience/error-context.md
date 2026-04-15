@@ -14,7 +14,7 @@
           - searchbox "Global search" [ref=e17]
       - button "Notifications" [ref=e21] [cursor=pointer]:
         - img [ref=e22]
-        - generic [ref=e25]: "2"
+        - generic [ref=e25]: "7"
       - button "User menu" [ref=e28] [cursor=pointer]:
         - img "Avatar of Admin Kumar" [ref=e29]
   - generic [ref=e30]:
@@ -51,11 +51,11 @@
                   - img [ref=e63]
                   - generic [ref=e65]: Attorney Contacts
               - listitem [ref=e66]:
-                - link "Consultations 4" [ref=e67] [cursor=pointer]:
+                - link "Consultations 5" [ref=e67] [cursor=pointer]:
                   - /url: https://staging.pinevisa.com/admin/consultations
                   - img [ref=e68]
                   - generic [ref=e70]: Consultations
-                  - generic [ref=e74]: "4"
+                  - generic [ref=e74]: "5"
               - listitem [ref=e75]:
                 - link "Contact Messages" [ref=e76] [cursor=pointer]:
                   - /url: https://staging.pinevisa.com/admin/contact-messages
