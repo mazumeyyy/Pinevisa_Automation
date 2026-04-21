@@ -1,0 +1,409 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - region "Notifications Alt+T"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link "Pine Visa" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img "Pine Visa" [ref=e8]
+      - generic [ref=e10]:
+        - link "Job Offers" [ref=e11] [cursor=pointer]:
+          - /url: /job-offer
+        - link "Employers" [ref=e12] [cursor=pointer]:
+          - /url: /employers
+        - button "Services" [ref=e14] [cursor=pointer]:
+          - text: Services
+          - img [ref=e15]
+      - button "us English" [ref=e19] [cursor=pointer]:
+        - generic [ref=e20]:
+          - img "us" [ref=e21]
+          - generic [ref=e22]: English
+        - img [ref=e23]
+  - generic [ref=e30]:
+    - heading "Connecting Global Talent to American Employers" [level=1] [ref=e31]
+    - paragraph [ref=e32]: Pine Visa bridges the gap between US businesses and global talent through Skilled Specialist, General Labor, Trainee, and Seasonal recruitment streams. Your search for a reliable workforce ends here.
+    - list [ref=e33]:
+      - listitem [ref=e34]:
+        - img [ref=e35]
+        - generic [ref=e38]: Verified U.S. Sponsors
+      - listitem [ref=e39]:
+        - img [ref=e40]
+        - generic [ref=e43]: 100% Legal Compliance
+      - listitem [ref=e44]:
+        - img [ref=e45]
+        - generic [ref=e48]: Transparent Process
+    - generic [ref=e49]:
+      - button "Check Eligibility" [ref=e50] [cursor=pointer]
+      - link "View Opportunities" [ref=e51] [cursor=pointer]:
+        - /url: /job-offer
+  - generic [ref=e53]:
+    - generic [ref=e54]:
+      - generic [ref=e55]: 30+
+      - generic [ref=e56]: US Employers Served
+    - generic [ref=e57]:
+      - generic [ref=e58]: 15+
+      - generic [ref=e59]: Source Countries
+    - generic [ref=e60]:
+      - generic [ref=e61]: "4"
+      - generic [ref=e62]: Visa Programs
+    - generic [ref=e63]:
+      - generic [ref=e64]: 95%
+      - generic [ref=e65]: Success Rate
+  - main [ref=e66]:
+    - generic [ref=e68]:
+      - generic [ref=e70]:
+        - heading "The CHALLENGE" [level=6] [ref=e71]
+        - heading "STRUGGLING TO FIND RELIABLE WORKERS?" [level=2] [ref=e72]
+        - paragraph [ref=e73]: American businesses lose billions every year to unfilled positions, high turnover, and unqualified applicants. The domestic labor market simply can't keep up with demand in key industries
+        - list [ref=e74]:
+          - listitem [ref=e75]: Record-high job vacancy rates in hospitality, agriculture & construction
+          - listitem [ref=e76]: Domestic applicats often lack commitment for demanding physical roles
+          - listitem [ref=e77]: Seasonal peaks cause severe understaffing and revenue loss
+          - listitem [ref=e78]: High training costs wasted on employees who don't stay
+      - generic [ref=e80]:
+        - heading "The Pine Visa Advantage" [level=2] [ref=e81]
+        - paragraph [ref=e82]: "What employers report after 6 months with us:"
+        - generic [ref=e84]:
+          - generic [ref=e85]: Reduction in Vacancies
+          - generic [ref=e86]: 94%
+        - generic [ref=e90]:
+          - generic [ref=e91]: Worker Retention Rate
+          - generic [ref=e92]: 92%
+        - generic [ref=e96]:
+          - generic [ref=e97]: Employer Satisfaction
+          - generic [ref=e98]: 97%
+        - link "Get Started Today" [ref=e101] [cursor=pointer]:
+          - /url: /job-offer
+          - text: Get Started Today
+          - img [ref=e102]
+    - generic [ref=e105]:
+      - generic [ref=e106]:
+        - heading "Our Visa Programs" [level=6] [ref=e107]
+        - heading "Four Powerful Solutions for Every Workforce Need" [level=2] [ref=e108]
+        - paragraph [ref=e109]: Whether you need permanent staff, cultural exchange workers, or seasonal workforce, Pine Visa has the right program for your business
+      - generic [ref=e110]:
+        - generic [ref=e111]:
+          - generic [ref=e114]: Permanent Skilled
+          - generic [ref=e115]:
+            - heading "Skilled & Professional Talent" [level=3] [ref=e116]
+            - paragraph [ref=e117]: Permanently sponsor experienced professionals and degree holders nurses, engineers, IT specialists and managers who bring lasting value to your business.
+            - list [ref=e118]:
+              - listitem [ref=e119]: 2+ yrs experience or Bachelor's degree
+              - listitem [ref=e120]: Permanent US residency (Green Card)
+              - listitem [ref=e121]: Covers skilled trades & professionals
+          - generic [ref=e122]:
+            - link "Learn More" [ref=e123] [cursor=pointer]:
+              - /url: ""
+              - text: Learn More
+              - img [ref=e124]
+            - button "Check Eligibility" [ref=e126]:
+              - text: Check Eligibility
+              - img [ref=e127]
+        - generic [ref=e129]:
+          - generic [ref=e132]: PERMANENT SOLUTION
+          - generic [ref=e133]:
+            - heading "Entry-Level Talent" [level=3] [ref=e134]
+            - paragraph [ref=e135]: Bring international talent permanently to the US for roles that face domestic labor shortages. Ideal for anufacturing, hospitality, caregiving and logistics industries.
+            - list [ref=e136]:
+              - listitem [ref=e137]: Permanent US residency path
+              - listitem [ref=e138]: No prior US work experience required
+              - listitem [ref=e139]: Covers 200+ job categories
+          - generic [ref=e140]:
+            - link "Learn More" [ref=e141] [cursor=pointer]:
+              - /url: ""
+              - text: Learn More
+              - img [ref=e142]
+            - button "Check Eligibility" [ref=e144]:
+              - text: Check Eligibility
+              - img [ref=e145]
+        - generic [ref=e147]:
+          - generic [ref=e150]: CULTURAL EXCHANGE
+          - generic [ref=e151]:
+            - heading "Intership & Trainee Talent" [level=3] [ref=e152]
+            - paragraph [ref=e153]: Bring motivated international students and young professionals during peak seasons. Perfect for hospitality, IT services, food services, and summer programs
+            - list [ref=e154]:
+              - listitem [ref=e155]: 12-18 month duration
+              - listitem [ref=e156]: Energetic workforce
+              - listitem [ref=e157]: Cost-effective staffing
+          - generic [ref=e158]:
+            - link "Learn More" [ref=e159] [cursor=pointer]:
+              - /url: ""
+              - text: Learn More
+              - img [ref=e160]
+            - button "Check Eligibility" [ref=e162]:
+              - text: Check Eligibility
+              - img [ref=e163]
+        - generic [ref=e165]:
+          - generic [ref=e168]: SEASONAL WORKFORCE
+          - generic [ref=e169]:
+            - heading "Peak Season Staffing" [level=3] [ref=e170]
+            - paragraph [ref=e171]: Temporary workers for your peak season demands. H-2A for agricultural roles, H-2B for non-agricultural industries including construction and landscaping.
+            - list [ref=e172]:
+              - listitem [ref=e173]: Agriculture & non-agricultural
+              - listitem [ref=e174]: Flexible contract period
+              - listitem [ref=e175]: Scalable workforce
+          - generic [ref=e176]:
+            - link "Learn More" [ref=e177] [cursor=pointer]:
+              - /url: ""
+              - text: Learn More
+              - img [ref=e178]
+            - button "Check Eligibility" [ref=e180]:
+              - text: Check Eligibility
+              - img [ref=e181]
+      - link "View All Services" [ref=e184] [cursor=pointer]:
+        - /url: ""
+        - text: View All Services
+        - img [ref=e185]
+    - generic [ref=e188]:
+      - generic [ref=e189]:
+        - heading "WHY PINE VISA?" [level=6] [ref=e190]
+        - heading "AMERICA'S MOST TRUSTED WORKFORCE PARTNER" [level=2] [ref=e191]
+        - paragraph [ref=e192]: We don't just fill positions we build long-term workforce solutions that grow with your business.
+      - generic [ref=e193]:
+        - generic [ref=e194]:
+          - img [ref=e196]
+          - heading "Legally Compliant" [level=3] [ref=e198]
+          - paragraph [ref=e199]: Every placement follows strict USCIS and DOL guidelines, keeping your business fully protected.
+        - generic [ref=e200]:
+          - img [ref=e202]
+          - heading "Global Talent Network" [level=3] [ref=e204]
+          - paragraph [ref=e205]: Access pre-vetted candidates from 15+ countries who are ready and egar to work
+        - generic [ref=e206]:
+          - img [ref=e208]
+          - heading "Fast Turnaround" [level=3] [ref=e210]
+          - paragraph [ref=e211]: From consulation to first worker on-site in as little as 3 months for seasonal programs
+        - generic [ref=e212]:
+          - img [ref=e214]
+          - heading "Scalable Solutions" [level=3] [ref=e216]
+          - paragraph [ref=e217]: Need 5 workers or 500? Our programs scale to match your exact workforce requirements
+        - generic [ref=e218]:
+          - img [ref=e220]
+          - heading "End-to-End Support" [level=3] [ref=e222]
+          - paragraph [ref=e223]: We handle all paperwork, sponsorships, legal filings, and worker logistics - you focus on your business
+        - generic [ref=e224]:
+          - img [ref=e226]
+          - heading "Retention Focused" [level=3] [ref=e228]
+          - paragraph [ref=e229]: Higher retention rates compared to domestic placements - workers who are committed for the long term
+    - generic [ref=e231]:
+      - generic [ref=e232]:
+        - heading "INDUSTRIES WE SERVE" [level=6] [ref=e233]
+        - heading "STAFFING SOLUTIONS ACROSS EVERY MAJOR INDUSTRY" [level=2] [ref=e234]
+      - generic [ref=e235]:
+        - heading "Hospitality & Hotels" [level=4] [ref=e238]
+        - heading "Agriculture & Farming" [level=4] [ref=e241]
+        - heading "Construction" [level=4] [ref=e244]
+        - heading "Food Service" [level=4] [ref=e247]
+        - heading "Manufacturing" [level=4] [ref=e250]
+        - heading "Landscaping" [level=4] [ref=e253]
+        - heading "Healthcare Support" [level=4] [ref=e256]
+        - heading "Logistics & Warehousing" [level=4] [ref=e259]
+    - generic [ref=e261]:
+      - generic [ref=e262]:
+        - heading "HOW IT WORKS" [level=6] [ref=e263]
+        - heading "FROM CONSULATION TO FIRST DAY ON THE JOB" [level=2] [ref=e264]
+        - paragraph [ref=e265]: Our streamlined process gets international workers to your door fully complaint and ready to contribute
+      - generic [ref=e268]:
+        - generic [ref=e269]:
+          - generic [ref=e271]: "01"
+          - heading "Free Consulation" [level=3] [ref=e272]
+          - paragraph [ref=e273]: Schedule a no-obligation call with our specialists to discuss your staffing needs and the best program fit
+        - generic [ref=e274]:
+          - generic [ref=e276]: "02"
+          - heading "Candidate Matching" [level=3] [ref=e277]
+          - paragraph [ref=e278]: We source and pre-vet qualified candidates from our global network, matching skills to your job requiremenets
+        - generic [ref=e279]:
+          - generic [ref=e281]: "03"
+          - heading "Legal Processing" [level=3] [ref=e282]
+          - paragraph [ref=e283]: Our team handles all USCIS petitions, DOL certifications, and embassy interviews — fully managed for you.
+        - generic [ref=e284]:
+          - generic [ref=e286]: "04"
+          - heading "Onboarding & Beyond" [level=3] [ref=e287]
+          - paragraph [ref=e288]: Workers arrive ready. We provide onboarding support and remain your partner throughout employment.
+      - link "Start Your Free Consultation" [ref=e290] [cursor=pointer]:
+        - /url: /contact-us
+        - text: Start Your Free Consultation
+        - img [ref=e291]
+    - generic [ref=e295]:
+      - heading "What Our Employer Partners Say" [level=2] [ref=e298]
+      - generic [ref=e299]:
+        - generic [ref=e300]:
+          - img [ref=e302] [cursor=pointer]
+          - img [ref=e305] [cursor=pointer]
+        - generic [ref=e308]:
+          - generic [ref=e310]:
+            - paragraph [ref=e312]: Check Your Eligibility for EB-3 Visa Processing with Pine Visa! Our expert team will assess your qualifications and guide you through the process of determining your eligibility for the EB-3 Visa. Take the first step towards your American dream today.
+            - generic [ref=e313]:
+              - img "Nguyen Nhat" [ref=e315]
+              - generic [ref=e316]:
+                - heading "Nguyen Nhat" [level=4] [ref=e317]
+                - generic [ref=e318]:
+                  - img "Vietnam" [ref=e319]
+                  - paragraph [ref=e320]: Vietnam
+          - generic [ref=e322]:
+            - paragraph [ref=e324]: While researching there were lots of visa options and categories which made me more confused and it took a lot of time but Pine Visa made the processing a lot easier. I got a proper clarity upon the type of visa and its process that is suitable for me. Genuinely a great help.
+            - generic [ref=e325]:
+              - img "Derek Dee" [ref=e327]
+              - generic [ref=e328]:
+                - heading "Derek Dee" [level=4] [ref=e329]
+                - generic [ref=e330]:
+                  - img "Phillipines" [ref=e331]
+                  - paragraph [ref=e332]: Phillipines
+          - generic [ref=e334]:
+            - paragraph [ref=e336]: One of the most convenient platforms have ever come across. I can now avoid all the lengthy process of running after visa processing. Pine Visa got me and my American dream all covered. Thank You!
+            - generic [ref=e337]:
+              - img "Ahmed Abbas" [ref=e339]
+              - generic [ref=e340]:
+                - heading "Ahmed Abbas" [level=4] [ref=e341]
+                - generic [ref=e342]:
+                  - img "Bangladesh" [ref=e343]
+                  - paragraph [ref=e344]: Bangladesh
+          - generic [ref=e346]:
+            - paragraph [ref=e348]: Pine Visa has been a central in helping me better understanding the visa admission and has assured me that I can properly reach to my destination. I have been able to close the gaps between my actual knowledge and the real process through Pine Visa.
+            - generic [ref=e349]:
+              - img "Deepak Pudasaini" [ref=e351]
+              - generic [ref=e352]:
+                - heading "Deepak Pudasaini" [level=4] [ref=e353]
+                - generic [ref=e354]:
+                  - img "Nepal" [ref=e355]
+                  - paragraph [ref=e356]: Nepal
+    - generic [ref=e358]:
+      - generic [ref=e359]:
+        - heading "Get Started Today" [level=6] [ref=e360]
+        - heading "READY TO BUILD YOUR DREAM WORKFORCE?" [level=2] [ref=e361]
+        - paragraph [ref=e362]: Join 30+ American employers who have permanently solved their labor shortage with Pine Visa. Your first consulations is completely free.
+      - generic [ref=e363]:
+        - button "Check Eligibility Now" [ref=e364]:
+          - text: Check Eligibility Now
+          - img [ref=e365]
+        - link "Talk to a Specialist" [ref=e367] [cursor=pointer]:
+          - /url: /contact-us
+          - text: Talk to a Specialist
+          - img [ref=e368]
+      - list [ref=e370]:
+        - listitem [ref=e371]:
+          - img [ref=e372]
+          - generic [ref=e374]: 100% Legal & Compliant
+        - listitem [ref=e375]:
+          - img [ref=e376]
+          - generic [ref=e378]: Certified Visa Experts
+        - listitem [ref=e379]:
+          - img [ref=e380]
+          - generic [ref=e382]: Quick Turnaround
+  - generic [ref=e383]:
+    - heading "Employers who believe in us" [level=2] [ref=e386]
+    - generic [ref=e392]:
+      - img "Partner" [ref=e394]
+      - img "Partner" [ref=e396]
+      - img "Partner" [ref=e398]
+      - img "Partner" [ref=e400]
+      - img "Partner" [ref=e402]
+      - img "Partner" [ref=e404]
+      - img "Partner" [ref=e406]
+      - img "Partner" [ref=e408]
+      - img "Partner" [ref=e410]
+      - img "Partner" [ref=e412]
+      - img "Partner" [ref=e414]
+      - img "Partner" [ref=e416]
+      - img "Partner" [ref=e418]
+      - img "Partner" [ref=e420]
+  - contentinfo [ref=e421]:
+    - img "USA Flag" [ref=e422]
+    - img "Statue of Liberty" [ref=e423]
+    - generic [ref=e424]:
+      - generic [ref=e425]:
+        - generic [ref=e426]:
+          - heading "View Prospectus of Pine Visa" [level=3] [ref=e427]
+          - button "View Prospectus" [ref=e428]
+        - generic [ref=e429]:
+          - paragraph [ref=e430]: Get Connected
+          - list [ref=e431]:
+            - listitem [ref=e432]:
+              - link [ref=e433] [cursor=pointer]:
+                - /url: https://www.facebook.com/pinevisa
+                - img [ref=e434]
+            - listitem [ref=e436]:
+              - link [ref=e437] [cursor=pointer]:
+                - /url: https://www.instagram.com/pinevisaglobal/
+                - img [ref=e438]
+            - listitem [ref=e440]:
+              - link [ref=e441] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/pinevisa
+                - img [ref=e442]
+            - listitem [ref=e444]:
+              - link [ref=e445] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@pinevisaglobal
+                - img [ref=e446]
+            - listitem [ref=e448]:
+              - link [ref=e449] [cursor=pointer]:
+                - /url: https://www.youtube.com/@pinevisa
+                - img [ref=e450]
+      - generic [ref=e452]:
+        - generic [ref=e453]:
+          - generic [ref=e454]:
+            - heading "Quick Links" [level=4] [ref=e455]
+            - list [ref=e456]:
+              - listitem [ref=e457]:
+                - link "Home" [ref=e458] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e459]:
+                - link "Employers" [ref=e460] [cursor=pointer]:
+                  - /url: /employers
+              - listitem [ref=e461]:
+                - link "Job Offers" [ref=e462] [cursor=pointer]:
+                  - /url: /job-offer
+              - listitem [ref=e463]:
+                - link "About Us" [ref=e464] [cursor=pointer]:
+                  - /url: /about-us
+              - listitem [ref=e465]:
+                - link "Careers" [ref=e466] [cursor=pointer]:
+                  - /url: /careers
+              - listitem [ref=e467]:
+                - link "Contact Us" [ref=e468] [cursor=pointer]:
+                  - /url: /contact-us
+          - generic [ref=e469]:
+            - heading "Services" [level=4] [ref=e470]
+            - list [ref=e471]:
+              - listitem [ref=e472]:
+                - link "Entry-Level Work Program" [ref=e473] [cursor=pointer]:
+                  - /url: /eb3
+              - listitem [ref=e474]:
+                - link "Skilled & Professional Program" [ref=e475] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e476]:
+                - link "Cultural Exchange Program" [ref=e477] [cursor=pointer]:
+                  - /url: /j1
+              - listitem [ref=e478]:
+                - link "Seasonal Employment Program" [ref=e479] [cursor=pointer]:
+                  - /url: /h2
+              - listitem [ref=e480]:
+                - link "All Services" [ref=e481] [cursor=pointer]:
+                  - /url: /all-services
+          - generic [ref=e482]:
+            - heading "Resources" [level=4] [ref=e483]
+            - list [ref=e484]:
+              - listitem [ref=e485]:
+                - link "Achievements & Involvements" [ref=e486] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e487]:
+                - link "Attorney Partnership" [ref=e488] [cursor=pointer]:
+                  - /url: /attorney
+              - listitem [ref=e489]:
+                - link "Referral Partner Program" [ref=e490] [cursor=pointer]:
+                  - /url: /referral-partner
+              - listitem [ref=e491]:
+                - link "Terms & Conditions" [ref=e492] [cursor=pointer]:
+                  - /url: /terms-conditions
+              - listitem [ref=e493]:
+                - link "Disclaimers" [ref=e494] [cursor=pointer]:
+                  - /url: /disclaimers
+          - generic [ref=e495]:
+            - img "Pine Visa" [ref=e496]
+            - paragraph [ref=e497]: Bridging opportunity between U.S employers and international workers through ethical recruitment and trusted partnerships.
+        - generic [ref=e499]:
+          - paragraph [ref=e500]: Copyright © 2026 Pine Visa. All Rights Reserved.
+          - list [ref=e501]:
+            - listitem [ref=e502]: jobs@pinevisa.com
+            - listitem [ref=e503]: +1 (469) 393-4222
+```

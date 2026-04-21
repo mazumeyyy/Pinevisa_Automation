@@ -19,9 +19,27 @@ test.describe('Pinevisa Automation', () => {
         // Click Enable dark theme
         await page.locator('button[aria-label="Enable dark theme"]').click();
 
-       
-        
 
+        // Navigate to Admins
+        await page.locator('span.fi-sidebar-item-label', { hasText: 'Admins' }).click();
+
+        // Create new admin
+        await page.getByText('New admin').click();
+
+        // Upload a picture using FilePond hidden input
+        // Upload the file directly to the hidden input
+        await page.locator('input[type="file"]').setInputFiles('C:/Users/Mazum Paudel/OneDrive/Desktop/dpp(1).jpg');
+
+        // Fill in the form fields
+        await page.locator('input[name="Name"]').fill('Mazum Paudel');
+
+
+
+
+
+
+
+        
 
     });
 });

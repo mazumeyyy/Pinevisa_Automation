@@ -1,0 +1,213 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - navigation [ref=e3]:
+    - link "PineVisa" [ref=e5] [cursor=pointer]:
+      - /url: https://staging.pinevisa.com/admin
+      - generic [ref=e6]: PineVisa
+    - generic [ref=e7]:
+      - generic [ref=e10]:
+        - generic [ref=e11]: Global search
+        - generic [ref=e12]:
+          - img [ref=e14]
+          - searchbox "Global search" [ref=e17]
+      - button "Notifications" [ref=e21] [cursor=pointer]:
+        - img [ref=e22]
+        - generic [ref=e25]: "3"
+      - button "User menu" [ref=e28] [cursor=pointer]:
+        - img "Avatar of Admin Kumar" [ref=e29]
+  - generic [ref=e30]:
+    - complementary [ref=e32]:
+      - navigation [ref=e33]:
+        - list [ref=e34]:
+          - listitem [ref=e35]:
+            - list [ref=e36]:
+              - listitem [ref=e37]:
+                - link "Dashboard" [ref=e38] [cursor=pointer]:
+                  - /url: https://staging.pinevisa.com/admin
+                  - img [ref=e39]
+                  - generic [ref=e41]: Dashboard
+          - listitem [ref=e42]:
+            - generic [ref=e43] [cursor=pointer]:
+              - generic [ref=e44]: Users Management
+              - button "Users Management" [expanded] [ref=e45]:
+                - img [ref=e46]
+            - list [ref=e48]:
+              - listitem [ref=e49]:
+                - link "Admins" [ref=e50] [cursor=pointer]:
+                  - /url: https://staging.pinevisa.com/admin/admins
+                  - img [ref=e51]
+                  - generic [ref=e53]: Admins
+          - listitem [ref=e54]:
+            - generic [ref=e55] [cursor=pointer]:
+              - generic [ref=e56]: Management
+              - button "Management" [expanded] [ref=e57]:
+                - img [ref=e58]
+            - list [ref=e60]:
+              - listitem [ref=e61]:
+                - link "Attorney Contacts" [ref=e62] [cursor=pointer]:
+                  - /url: https://staging.pinevisa.com/admin/attorney-contacts
+                  - img [ref=e63]
+                  - generic [ref=e65]: Attorney Contacts
+              - listitem [ref=e66]:
+                - link "Consultations" [ref=e67] [cursor=pointer]:
+                  - /url: https://staging.pinevisa.com/admin/consultations
+                  - img [ref=e68]
+                  - generic [ref=e70]: Consultations
+              - listitem [ref=e71]:
+                - link "Contact Messages" [ref=e72] [cursor=pointer]:
+                  - /url: https://staging.pinevisa.com/admin/contact-messages
+                  - img [ref=e73]
+                  - generic [ref=e75]: Contact Messages
+              - listitem [ref=e76]:
+                - link "Countries" [ref=e77] [cursor=pointer]:
+                  - /url: https://staging.pinevisa.com/admin/countries
+                  - img [ref=e78]
+                  - generic [ref=e80]: Countries
+              - listitem [ref=e81]:
+                - link "Eligibility Enquiries" [ref=e82] [cursor=pointer]:
+                  - /url: https://staging.pinevisa.com/admin/eligibility-enquiries
+                  - img [ref=e83]
+                  - generic [ref=e85]: Eligibility Enquiries
+              - listitem [ref=e86]:
+                - link "Job Applications" [ref=e87] [cursor=pointer]:
+                  - /url: https://staging.pinevisa.com/admin/job-applications
+                  - img [ref=e88]
+                  - generic [ref=e90]: Job Applications
+              - listitem [ref=e91]:
+                - link "Job Postings" [ref=e92] [cursor=pointer]:
+                  - /url: https://staging.pinevisa.com/admin/job-postings
+                  - img [ref=e93]
+                  - generic [ref=e95]: Job Postings
+              - listitem [ref=e96]:
+                - link "Prospectus Downloads" [ref=e97] [cursor=pointer]:
+                  - /url: https://staging.pinevisa.com/admin/prospectus-downloads
+                  - img [ref=e98]
+                  - generic [ref=e100]: Prospectus Downloads
+              - listitem [ref=e101]:
+                - link "Sponsor Contacts 0" [ref=e102] [cursor=pointer]:
+                  - /url: https://staging.pinevisa.com/admin/sponsor-contacts
+                  - img [ref=e103]
+                  - generic [ref=e105]: Sponsor Contacts
+                  - generic [ref=e109]: "0"
+          - listitem [ref=e110]:
+            - generic [ref=e111] [cursor=pointer]:
+              - generic [ref=e112]: Content Management
+              - button "Content Management" [expanded] [ref=e113]:
+                - img [ref=e114]
+            - list [ref=e116]:
+              - listitem [ref=e117]:
+                - link "Blog Categories" [ref=e118] [cursor=pointer]:
+                  - /url: https://staging.pinevisa.com/admin/blog-categories
+                  - img [ref=e119]
+                  - generic [ref=e121]: Blog Categories
+              - listitem [ref=e122]:
+                - link "Blogs" [ref=e123] [cursor=pointer]:
+                  - /url: https://staging.pinevisa.com/admin/blogs
+                  - img [ref=e124]
+                  - generic [ref=e126]: Blogs
+              - listitem [ref=e127]:
+                - link "Latest News" [ref=e128] [cursor=pointer]:
+                  - /url: https://staging.pinevisa.com/admin/latest-news
+                  - img [ref=e129]
+                  - generic [ref=e131]: Latest News
+              - listitem [ref=e132]:
+                - link "Media Coverages" [ref=e133] [cursor=pointer]:
+                  - /url: https://staging.pinevisa.com/admin/media-coverages
+                  - img [ref=e134]
+                  - generic [ref=e136]: Media Coverages
+    - main [ref=e138]:
+      - generic [ref=e140]:
+        - generic [ref=e142]:
+          - navigation [ref=e143]:
+            - list [ref=e144]:
+              - listitem [ref=e145]:
+                - link "Admins" [ref=e146] [cursor=pointer]:
+                  - /url: https://staging.pinevisa.com/admin/admins
+              - listitem [ref=e147]:
+                - img [ref=e148]
+                - generic [ref=e150]: Create
+          - heading "Create Admin" [level=1] [ref=e151]
+        - generic [ref=e157]:
+          - generic [ref=e161]:
+            - generic [ref=e165]:
+              - heading "Avatar & Status" [level=2] [ref=e168]
+              - generic [ref=e170]:
+                - generic [ref=e173]:
+                  - generic [ref=e177]: Profile Photo
+                  - group "Profile Photo" [ref=e179]:
+                    - generic [ref=e181]:
+                      - button "Drag & Drop your files or Browse"
+                      - list [ref=e183]:
+                        - listitem [ref=e184]:
+                          - group "dpp(1).jpg" [ref=e185]:
+                            - generic [ref=e186]: dpp(1).jpg
+                            - generic [ref=e187]:
+                              - button "Remove" [ref=e188]:
+                                - img [ref=e189]
+                                - generic [ref=e191]: Remove
+                              - button "edit" [ref=e192]:
+                                - img [ref=e193]
+                                - generic [ref=e195]: edit
+                              - generic [ref=e196]:
+                                - generic:
+                                  - img
+                                - generic:
+                                  - img
+                      - alert [ref=e197]: dpp(1).jpg Upload complete
+                - generic [ref=e200]:
+                  - generic [ref=e203]:
+                    - switch "Account Status*" [checked] [ref=e204] [cursor=pointer]
+                    - generic [ref=e205]:
+                      - text: Account Status
+                      - superscript [ref=e206]: "*"
+                  - generic [ref=e211]: Disable to prevent login
+            - generic [ref=e215]:
+              - generic [ref=e217]:
+                - heading "Basic Information" [level=2] [ref=e218]
+                - paragraph [ref=e219]: Manage the admin's basic account details.
+              - generic [ref=e221]:
+                - generic [ref=e224]:
+                  - generic [ref=e228]:
+                    - text: Name
+                    - superscript [ref=e229]: "*"
+                  - textbox "Name*" [ref=e233]:
+                    - /placeholder: John Doe
+                - generic [ref=e236]:
+                  - generic [ref=e240]:
+                    - text: Email address
+                    - superscript [ref=e241]: "*"
+                  - textbox "Email address*" [ref=e245]:
+                    - /placeholder: john@example.com
+                - generic [ref=e248]:
+                  - generic [ref=e252]: Email Verified At
+                  - button "Select date and time" [ref=e257] [cursor=pointer]:
+                    - textbox "Email Verified At" [ref=e258]:
+                      - /placeholder: Select date and time
+                      - text: Apr 21, 2026 11:57
+                - generic [ref=e261]:
+                  - generic [ref=e265]:
+                    - text: Password
+                    - superscript [ref=e266]: "*"
+                  - generic [ref=e268]:
+                    - textbox "Password*" [ref=e270]:
+                      - /placeholder: Enter password
+                    - button "Show password" [ref=e273] [cursor=pointer]:
+                      - img [ref=e274]
+                - generic [ref=e279]:
+                  - generic [ref=e283]:
+                    - text: Confirm Password
+                    - superscript [ref=e284]: "*"
+                  - generic [ref=e286]:
+                    - textbox "Confirm Password*" [ref=e288]
+                    - button "Show password" [ref=e291] [cursor=pointer]:
+                      - img [ref=e292]
+          - generic [ref=e299]:
+            - button "Create" [ref=e300] [cursor=pointer]:
+              - generic [ref=e301]: Create
+            - button "Create & create another" [ref=e302] [cursor=pointer]
+            - button "Cancel" [ref=e303] [cursor=pointer]
+  - generic:
+    - status
+```
